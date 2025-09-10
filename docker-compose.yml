@@ -3,7 +3,7 @@ services:
     build: apps/.
     image: zaxrmdn/simple-apps
     restart: always
-    environtment:
+    environment:
       -  DB_NAME=training
       -  DB_HOST=db 
       -  DB_USER=peserta
